@@ -1,0 +1,13 @@
+{%extends 'layout.html' %}
+
+{% block content %}
+        <h4 class="form">Register Here</h4>
+        <div class="container">
+            <hr><br>
+
+            {{ form.hidden_tag() }} <!-- This is to protect csrf (cross site scripting)attacks-->
+
+            {{wtf.quick_form(form)}}
+        </div>
+
+{% endblock %}

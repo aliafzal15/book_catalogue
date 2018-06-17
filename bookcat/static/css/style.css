@@ -1,0 +1,33 @@
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color:#eee }
+body {
+	text-align:center;
+	margin:0;
+	padding: 0 50px;
+	font-size: 14px;
+	line-height: 1.4;
+	font-family:Arial,Verdana,sans-serif;
+	color:#4a4a4a;
+}
+
+h1, h2, h3 , h4 {font-family:Arial}
+
+p, li {font-size: small}
+
+ul {position:relative; top:25px; right:7%;}
+
+a h3 {position:relative; left:10%}
+
+footer{position:relative; width:100%; left:0; bottom:0 height:40px}
+
+.navbar-inverse {height:5%;}
+
+.books {padding: 25px; position:relative; left:5%; width:80%}
+
+.publisher {padding: 25 px; position:relative; left:40px}
+
+.ftr{padding: 25px}
+
+.wrapper {position:relative; min-height: 120%;}
+
+.title {color: floralwhite}
